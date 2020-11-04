@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PersegiFragment">
+
+   <EditText
+       android:id="@+id/txtPanjang"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="10dp"
+       android:layout_marginStart="20dp"
+       android:layout_marginEnd="20dp"
+       android:inputType="number"
+       android:hint="Panjang"/>
+    <EditText
+        android:id="@+id/txtLebar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:inputType="number"
+        android:hint="Lebar"/>
+    <Button
+        android:id="@+id/btnHasil_luas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Luas"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"/>
+    <Button
+        android:id="@+id/btnHasil_keliling"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:text="Keliling" />
+    <TextView
+        android:id="@+id/hasil"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:text="HASIL"/>
+
+</LinearLayout>
